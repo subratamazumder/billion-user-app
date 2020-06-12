@@ -5,11 +5,14 @@ This platform can support billion users.
 
 Could be a usefull model for countries like India where electronic prescription is not available yet for everyone.
 
-Doctor  - issue a prescription
-        - view issued preprescriptions by him/her
+- Doctor  
+    - issue a prescription
+    - view issued preprescriptions by him/her
 
-Patient - view issued preprescriptions for him/her
+- Patient 
+    - view issued preprescriptions for him/her
 
-Pharmacy - view prescription on granting access by Patient
+- Pharmacy 
+    - view prescription on granting access by Patient
 
 ![Design](billion-user-eprescription-function.png)
