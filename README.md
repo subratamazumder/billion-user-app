@@ -8,6 +8,7 @@ Could be a usefull model for countries like India where electronic prescription 
 - Doctor  
     - issue a prescription
     - view issued preprescriptions by him/her
+    - request access to view new patient's prescription on granting access by Patient
 
 - Patient 
     - view issued preprescriptions for him/her
