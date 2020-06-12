@@ -17,3 +17,5 @@ Could be a usefull model for countries like India where electronic prescription 
     - view prescription on granting access by Patient
 
 ![Design](billion-user-eprescription-function.png)
+
+Technical Deatails can be found [here](backend-app/README.md)
