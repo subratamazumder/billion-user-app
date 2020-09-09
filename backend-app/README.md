@@ -8,6 +8,7 @@
 - Cons
     - High Cost when request vloumns are 1000 per seconds?
     - cold start
+
 ![Design](billion-user-eprescription-arch.png)
 
 2. Serverless Container (AWS Fargate) Based
@@ -18,12 +19,16 @@
 - Cons
     - data plane management
     - up skill to k8
+
 ![Design](billion-user-eprescription-Fargate.png)
 
-## Technology components
+## Key Technology Components
 - gRPC for APIs & service communication
 - Docker to host & deploy app
 - React js to create simple UI
 - Kubernates (EKS) to manager cluster & container orchestration
 - istio to provide servicemesh capability
+- API Gateway for rate-limiting
+- Elastic Cache (redis) for caching read request
+- CF Distro + S3 to supply prescription pdfs
 - Google Anthos for multi cloud support
