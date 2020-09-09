@@ -31,4 +31,4 @@
 - API Gateway for rate-limiting
 - Elastic Cache (redis) for caching read request
 - CF Distro + S3 to supply prescription pdfs
-- Google Anthos for multi cloud support
+- Google Anthos for multi cloud support (2nd iteration - TBC)
