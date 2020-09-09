@@ -23,6 +23,7 @@
 ![Design](billion-user-eprescription-Fargate.png)
 
 ## Key Technology Components
+- Terraform for IaC
 - gRPC for APIs & service communication
 - Docker to host & deploy app
 - React js to create simple UI
