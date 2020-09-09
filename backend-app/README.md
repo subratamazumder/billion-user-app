@@ -3,18 +3,27 @@
 
 1. Serverless Function (AWS Lambda) Based
 - Pros
-    - bla
-    - bla
+    - reasobaly easy to implement
+    - don't bother writing code to create a container
 - Cons
     - High Cost when request vloumns are 1000 per seconds?
-    - bla
+    - cold start
 ![Design](billion-user-eprescription-arch.png)
 
 2. Serverless Container (AWS Fargate) Based
 - Pros
     - Low Cost when request vloumns are 1000 per seconds?
-    - bla
+    - battle tested K8 tool
+    - control plane management is OOB
 - Cons
-    - bla
-    - bla
+    - data plane management
+    - up skill to k8
 ![Design](billion-user-eprescription-Fargate.png)
+
+## Technology components
+- gRPC for APIs & service communication
+- Docker to host & deploy app
+- React js to create simple UI
+- Kubernates (EKS) to manager cluster & container orchestration
+- istio to provide servicemesh capability
+- Google Anthos for multi cloud support
